@@ -35,13 +35,11 @@ img {
     max-width: 100px;
 }
 
-
-
-
 .col-container {
     display: table;
     width: 100%;
 }
+
 .col {
     display: table-cell;
     width: 50%;
@@ -50,8 +48,55 @@ img {
     vertical-align: middle;
 }
 
+.colicon {
+    display: table-cell;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titletext {
+    padding: 30px;
+    text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-envelope {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-file-text-o {
+  background: #00b489;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
     .col { 
+        display: block;
+        width: 100%;
+    }
+    .colicon { 
         display: block;
         width: 100%;
     }
